@@ -8,7 +8,7 @@ It implements the required SSS-1 and SSS-2 standard presets, then extends them w
 
 - SSS-1 — minimal stablecoin preset
 - SSS-2 — compliant stablecoin preset
-- TypeScript SDK** for issuers and developers
+- TypeScript SDK for issuers and developers
 - Admin CLI for day-to-day operations
 - Policy Engine for configurable operator rules
 - Audit Ledger for exportable action trails
