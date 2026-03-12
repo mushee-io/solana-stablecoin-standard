@@ -1,0 +1,15 @@
+name = "Issuer USD"
+symbol = "iUSD"
+decimals = 6
+preset = "sss-2"
+
+[extensions]
+permanent_delegate = true
+transfer_hook = true
+blacklist = true
+default_account_frozen = false
+
+[ops]
+require_approval_above = 50000000000
+dual_control_seize = true
+audit_export_enabled = true

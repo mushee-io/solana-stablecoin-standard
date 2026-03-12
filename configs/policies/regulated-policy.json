@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "name": "regulated-policy",
+  "rules": [
+    {
+      "id": "mint-over-threshold",
+      "name": "Large mint approval",
+      "enabled": true,
+      "action": "mint",
+      "condition": { "amount_gt": 50000000000 },
+      "effect": "require_approval",
+      "approvals": 1
+    },
+    {
+      "id": "dual-control-seize",
+      "name": "Seizure needs two operators",
+      "enabled": true,
+      "action": "seize",
+      "condition": { "always": true },
+      "effect": "require_dual_approval",
+      "approvals": 2
+    }
+  ]
+}

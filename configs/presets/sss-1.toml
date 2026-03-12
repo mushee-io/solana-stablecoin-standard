@@ -1,0 +1,10 @@
+name = "Treasury USD"
+symbol = "tUSD"
+decimals = 6
+preset = "sss-1"
+
+[extensions]
+permanent_delegate = false
+transfer_hook = false
+blacklist = false
+default_account_frozen = false

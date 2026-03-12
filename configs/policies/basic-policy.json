@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "name": "basic-policy",
+  "rules": [
+    {
+      "id": "mint-over-threshold",
+      "name": "Large mint approval",
+      "enabled": true,
+      "action": "mint",
+      "condition": { "amount_gt": 50000000000 },
+      "effect": "require_approval",
+      "approvals": 1
+    }
+  ]
+}
